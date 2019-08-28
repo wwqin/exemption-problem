@@ -1,0 +1,103 @@
+/*mac终端输入框*/
+body,html{
+  padding: 0;
+  margin: 0;
+}
+#window-button,
+#window #buttons #close,
+#window #buttons #minimize,
+#window #buttons #maximize {
+    padding: 0;
+    margin: 0;
+    margin-right: 4px;
+    width: 12px;
+    height: 12px;
+    background-color: gainsboro;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    border-radius: 15px;
+    color: rgba(0, 0, 0, 0.5);
+}
+#window {
+    width: 100%;
+    height: 100vh;
+    box-shadow: 30px 30px 25px #888888;
+}
+#window #handle {
+    height: 22px;
+    background: linear-gradient(0deg, #d8d8d8, #ececec);
+    border-top: 1px solid white;
+    border-bottom: 1px solid #b3b3b3;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    color: rgba(0, 0, 0, 0.7);
+    font-family: Helvetica, sans-serif;
+    font-size: 13px;
+    line-height: 22px;
+    text-align: center;
+}
+#window #buttons {
+    position: absolute;
+    float: left;
+    margin: 0 8px;
+}
+#window #buttons #close {
+    background-color: #ff6159;
+}
+#window #buttons #minimize {
+    background-color: #ffbf2f;
+}
+#window #buttons #maximize {
+    background-color: #25cc3e;
+}
+#window #console {
+    padding: 4px;
+    background-color: black;
+    opacity: 0.95;
+    height: 98%;
+    color: rgb(1, 255, 1);
+    font-family: 'Source Code Pro', monospace;
+    font-weight: 200;
+    font-size: 16px;
+    white-space: pre;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    overflow-y: auto;
+}
+#window #console::after {
+    content: "|";
+    animation: blink 2s steps(1) infinite;
+}
+#prompt {
+    color: #bde371;
+}
+#path {
+    color: #5ed7ff;
+}
+
+#container{
+    width: 100%;
+    height: 100%;
+}
+#console .cc{
+    word-wrap:break-word;
+    white-space: normal;
+}
+@keyframes blink {
+    50% {
+        color: transparent;
+    }
+}
+#console::-webkit-scrollbar {
+    display: none;
+}
+.inText{
+    width:75%;
+    height: 80%;
+    margin: 0 auto;
+}
+body::-webkit-scrollbar {
+    display: none;
+}
+#login{
+    position: absolute;
+}

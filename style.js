@@ -1,0 +1,2 @@
+localStorage.setItem("TheFirstQuestion", "写一个程序，输出从 1 到 10000 数字的表示。1-10000中如果有3的倍数，输出“Fizz”，如果有5的倍数，输出“Buzz”，如果不是3、5和7的倍数，输出 “FizzBuzz” 。你能用几种语言实现上面的程序？在当前程序上还有什么可以改进的？");
+console.log('第二题：6K6y5LiA5LiL5L2g5LqG6Kej55qEd2Vi5pyN5Yqh5oiW6ICFd2Vi5bqU55So55qE6K6+6K6h5qih5byP77yM57uE5oiQ57uT5p6E5Lul5Y+K5raI5oGv5Lyg6YCS5pa55byP77yM5bm25LiU5bC95Y+v6IO95aSa55qE6K6y5Ye65Y6f55CG')
