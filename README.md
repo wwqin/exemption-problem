@@ -1,4 +1,6 @@
-# MergeSortGoGoGo
+# \#0  找出全部题目
+
+# \#3  MergeSortGoGoGo
 
 ## Introduction
 
@@ -37,7 +39,7 @@ How to benchmark:
 make bench
 ```
 
-# Python problem
+# \#4  Python problem
 
 ## Introduction
 
@@ -59,7 +61,7 @@ But Boss Wang was not willing to, so he told her,  ' Look, I have finished my ex
 - Whether Boss Wang would buy a python for his girlfriend?
 - Is that lawful to keep a python as pet in China?
 
-# URL去哪儿了
+# \#5  URL去哪儿了
 
 ## Introduction
 
@@ -69,7 +71,7 @@ But Boss Wang was not willing to, so he told her,  ' Look, I have finished my ex
 
 简述从 URL 输入到页面展现的过程
 
-# 自适应
+# \#6  自适应
 
 ## Introduction
 
@@ -80,14 +82,14 @@ But Boss Wang was not willing to, so he told her,  ' Look, I have finished my ex
 简述网页实现自适应的几种方法
 
 
-# 什么是Web Accessibility以及如果实现无障碍网页浏览（简单列举几种方法）
+# \#7  什么是Web Accessibility以及如果实现无障碍网页浏览（简单列举几种方法）
 
-# 尝试着部署一个本地的web服务或者应用，讲一下它的设计模式，组成结构以及消息传递方式，并且尽可能多的讲出其中的原理:）
+# \#8  尝试着部署一个本地的web服务或者应用，讲一下它的设计模式，组成结构以及消息传递方式，并且尽可能多的讲出其中的原理:）
 
-# 迎新前夕，王老板写完了迎新网页，这时，路过的产品经理小张说道：“你这个让用户等待太久了，点个注册过五六秒才有结果，不行的呀”，王老板狡辩称：“这是后端的锅”。那么，聪明的你能帮助可怜的后端小哥哥完成这个优化吗？
+# \#9  迎新前夕，王老板写完了迎新网页，这时，路过的产品经理小张说道：“你这个让用户等待太久了，点个注册过五六秒才有结果，不行的呀”，王老板狡辩称：“这是后端的锅”。那么，聪明的你能帮助可怜的后端小哥哥完成这个优化吗？
 注：注册操作需要验证邮箱，你需要用java完成整个注册流程，只需用户名，不需要写入密码和其他信息，最后要持久化到数据库。
 
-# 蟹老板和鱼
+# \#10  蟹老板和鱼
 
 ## Introduction
 
@@ -107,5 +109,3 @@ ps : 已知海中有些种类的鱼特别多，所以有些操作可能会用很
 2、因为蟹老板的客人太多，蟹老板会向你提出很多问题，所以朴素的想法无法解决它的问题。
 3、如果有优秀的方法，方法越多分越高，方法的时间越快，空间使用越少评分越高。
 4、可以不用实现所有的功能，没有标准答案。
-
-# 找出全部题目
