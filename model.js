@@ -88,7 +88,7 @@ make bench<br>
   }
   function install(){
       let user=prompt("请输入你的名字~");
-      if(user==''){
+      if(user==''||user==null){
         console.append(`<div class='cc'>sacc: username is empty.</div>`)
       }else{
         console.append(`<div class="cc">${user}同学你好：<br>  首先祝贺你正式成为计软网安院科协的一员，从加入院科协的那一刻开始，你将经历一段从没经历和感受过的奇妙旅程。我们希望未来的一年中你能在科协这个大家庭中结交志同道合的朋友，从科协牛人中获取经验，成为技术上的大牛，或者在科协活动的举办中锻炼自己的活动组织能力。我们更希望一年后的你能像我们一样在科协为未来的学弟学妹提供技术和学习上的帮助。 愿初来南邮的你，在未来的一年中能在计软网安院科协这片沃土上，施展自己的才华，活出自己的精彩。(๑•̀ㅂ•́)و✧</div>`);
