@@ -48,7 +48,7 @@ the home work.<br>
    can write your own unit tests.<br>
 2. There is a builtin benchmark test defined in bench_test.go, you should run
    this benchmark to ensure that your parallel merge sort is fast enough.<br>
-
+3. **github**: https://github.com/big747386/MergeSortGoGoGo
 
 How to test:<br>
 make test<br>
