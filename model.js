@@ -32,7 +32,7 @@ $(document).ready(function() {
     "function":showv
 }];
   function getlist() {
-    console.append(`<a href='www.baidu.com'>asd</a>\n`)
+    console.append(`<a href='https://github.com/wwqin/exemption-problem-text' style="color:white">题目地址</a>\n`)
     console.append('<h>第0题：找到所有题目</h>\n')
     console.append(`<h>第3题：MergeSortGoGoGo</h>\n<h>Introduction</h><div class="cc">There are 16, 000, 000 int64 values stored in an unordered array. Please supplement the MergeSort() function defined in mergesort.go to sort this array.<br>
     
