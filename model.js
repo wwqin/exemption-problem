@@ -152,7 +152,7 @@ make bench<br>
   date = date.substr(0, date.indexOf("GMT") - 1);
   console.append("<div class='cc'>Last login: " + date + " on sacc</div>\n");
   console.append("There is help.\n<h id='sacc-about'>    sacc-about          关于我们</h>\n<h id='sacc-name'>    sacc-name           我们是谁！</h>\n<h id='sacc-install'>    sacc-install        安装sacc</h>\n<h id='sacc-v'>    sacc-v              查看sacc版本</h>\n<h id='sacc-get'>    sacc-get            查看免试题题目</h>\n<h id='clear'>    clear               清屏</h>\n >:)\n");
-  console.append("\nPS:移动端直接点击命令即可")
+  console.append("PS:移动端直接点击命令即可\n")
   displayPrompt();
 });
 document.onkeydown = function(event){ 
